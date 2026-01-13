@@ -21,7 +21,7 @@ export default function RootLayout() {
           isLogado ?
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
             :
-            <Stack.Screen name="(auth)/login" options={{ headerShown: false }} />
+            <Stack.Screen name="(auth)" options={{ headerShown: false }} />
         }
         <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
       </Stack>
